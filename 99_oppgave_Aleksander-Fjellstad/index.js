@@ -249,7 +249,7 @@ try {
     solved++;
   })();
 
-
+//Feil
 
   (function UseParameterDestructuring2() {
     // Adjust the code to let the test succeed.
@@ -270,6 +270,9 @@ try {
 
     solved++;
   })();
+
+    
+	
 
 
   /// Property shorthand ///
@@ -316,7 +319,7 @@ try {
 		solved++;
 	})();
 
-
+	//Feil
   
 	(function UseObjectSpreadProperties2() {
 		let obj1 = { a: 100, b: 2, c: 300 };
@@ -328,7 +331,7 @@ try {
 		// - Do use object spread properties
 		// - Think about the order!
 		//Oppgaven er logisk slik at man kan se hvilke bokstaver man skal referere til.
-		let result = { ...obj1, ...obj2, ...obj3, ...obj2 };
+		let result = { ...obj1, ...obj3, ...obj2 };
 
 		// Don't make changes below this line	
 		
