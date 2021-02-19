@@ -253,11 +253,11 @@ try {
 
   (function UseParameterDestructuring2() {
     // Adjust the code to let the test succeed.
-	// Gjorde om slik at jeg fikk 2 variabler
-	const name = 'Oslo';
-	const age = 985;
+
 	//const a binder binder name og age til a
-	const a={name,age}
+	//Fikset etter Ikke godkjent
+	const a = {name:'Oslo', age:985};
+
 
     // Don't make changes below this line
 
@@ -331,6 +331,7 @@ try {
 		// - Do use object spread properties
 		// - Think about the order!
 		//Oppgaven er logisk slik at man kan se hvilke bokstaver man skal referere til.
+		//obj2 er kun spreadet 1 gang nå. (Rettet)
 		let result = { ...obj1, ...obj3, ...obj2 };
 
 		// Don't make changes below this line	
